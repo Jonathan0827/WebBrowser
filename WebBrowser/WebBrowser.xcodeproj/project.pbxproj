@@ -14,6 +14,7 @@
 		91DA90C429F3EE8900D2AA44 /* WebBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA90C329F3EE8900D2AA44 /* WebBrowserTests.swift */; };
 		91DA90CE29F3EE8900D2AA44 /* WebBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA90CD29F3EE8900D2AA44 /* WebBrowserUITests.swift */; };
 		91DA90D029F3EE8900D2AA44 /* WebBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA90CF29F3EE8900D2AA44 /* WebBrowserUITestsLaunchTests.swift */; };
+		91DA90DD29F3F16A00D2AA44 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DA90DC29F3F16A00D2AA44 /* Launch.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		91DA90C929F3EE8900D2AA44 /* WebBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DA90CD29F3EE8900D2AA44 /* WebBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserUITests.swift; sourceTree = "<group>"; };
 		91DA90CF29F3EE8900D2AA44 /* WebBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91DA90DC29F3F16A00D2AA44 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		91DA90A629F3EE8700D2AA44 = {
 			isa = PBXGroup;
 			children = (
+				91DA90DC29F3F16A00D2AA44 /* Launch.storyboard */,
 				91DA90B129F3EE8700D2AA44 /* WebBrowser */,
 				91DA90C229F3EE8900D2AA44 /* WebBrowserTests */,
 				91DA90CC29F3EE8900D2AA44 /* WebBrowserUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				91DA90BA29F3EE8900D2AA44 /* Preview Assets.xcassets in Resources */,
 				91DA90B729F3EE8900D2AA44 /* Assets.xcassets in Resources */,
+				91DA90DD29F3F16A00D2AA44 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +424,14 @@
 				DEVELOPMENT_TEAM = WF4J3YQN3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Browser";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,11 +460,14 @@
 				DEVELOPMENT_TEAM = WF4J3YQN3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Browser";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
